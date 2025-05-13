@@ -1,5 +1,5 @@
 # Find missing number in an array(using summation and XOR operation)
-x = [1, 2, 3, 5, 6, 7, 8, 9, 10,11,12,13,14,15,16,17,18,19,20]
+x = [1, 2, 3, 5, 6, 7]
 
 def get_missing_number(a):
     n = a[-1]
@@ -8,4 +8,19 @@ def get_missing_number(a):
     sum1=sum(a)
     print(total1 - sum1)
 
-get_missing_number(x)    
+def get_missing_xor(a):
+    n = len(a)
+    xor_a = a[0]
+    for index in range(1,n):
+        xor_a = xor_a ^a[index]
+    x2=0
+    for i in range(1,n+2):
+        x2=x2^index
+    print(xor_a^x2)    
+
+get_missing_number(x)
+get_missing_xor(x)      
+
+
+
+
