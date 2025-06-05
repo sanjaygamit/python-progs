@@ -3,6 +3,7 @@ x = [1, 2, 3, 5, 6, 7]
 
 def get_missing_number(a):
     n = a[-1]
+    # print(n)
     sum1=0
     total1 = n*(n+1)//2
     sum1=sum(a)
@@ -16,7 +17,7 @@ def get_missing_xor(a):
     x2=0
     for i in range(1,n+2):
         x2=x2^index
-    print(xor_a^x2)    
+    # print(xor_a^x2)    
 
 get_missing_number(x)
 get_missing_xor(x)      
