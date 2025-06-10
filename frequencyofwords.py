@@ -37,12 +37,20 @@
 
 # Write a python program to convert two lists into a dictionary. 
 
-def fn_to_dict():
-    key = [1,2,3]
-    value = ["one", "two", "three"]
-    result = dict(zip(key,value))
-    print(result)
+# def fn_to_dict():
+#     key = [1,2,3]
+#     value = ["one", "two", "three"]
+#     result = dict(zip(key,value))
+#     print(result)
+# fn_to_dict()    
 
 
-fn_to_dict()    
+def missing_number(l):
 
+    n = l[-1] 
+    total = n * (n + 1) // 2
+    sum_of_elements = sum(l)
+    print("Missing number is :", total - sum_of_elements)
+
+
+missing_number([1, 2, 3,4, 5, 6, 7, 8, 9, 10,12])
