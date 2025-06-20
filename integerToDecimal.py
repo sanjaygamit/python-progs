@@ -19,21 +19,29 @@
 # print(a)
 
 # Counting VOWELS  in a given word 
-vowel = ['a','e','i','o','u']
-word = "programming"
-count = 0 
-for i in word:
-    if i  in vowel: 
-        count +=1
-print(count) 
+# vowel = ['a','e','i','o','u']
+# word = "programming"
+# count = 0 
+# for i in word:
+#     if i  in vowel: 
+#         count +=1
+# print(count) 
 
 # Counting CONSONANTS  in a given word. 
-vowel = ['a','e','i','o','u']
-word = "programming"
-count = 0 
-for i  in word:
-    if i not in vowel: 
-        count +=1
-print(count) 
+# vowel = ['a','e','i','o','u']
+# word = "programming"
+# count = 0 
+# for i  in word:
+#     if i not in vowel: 
+#         count +=1
+# print(count) 
 
+# Counting the number of occurances of a character in a string 
+word = "programming"
+character = 'g'
+count = 0 
+for I in word: 
+    if I == character: 
+        count +=1
+print(count)        
 
