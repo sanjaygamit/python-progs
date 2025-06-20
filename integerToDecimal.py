@@ -37,11 +37,19 @@
 # print(count) 
 
 # Counting the number of occurances of a character in a string 
-word = "programming"
-character = 'g'
-count = 0 
-for I in word: 
-    if I == character: 
-        count +=1
-print(count)        
+# word = "programming"
+# character = 'g'
+# count = 0 
+# for I in word: 
+#     if I == character: 
+#         count +=1
+# print(count)        
 
+# Writing FIBONACCI Series 
+fib = [0,1]
+# Range starts from 0 by default 
+n = 5 
+for i in range(n):
+    fib.append(fib[-1] + fib[-2])
+# Converting the list of integers to string 
+print(','.join(str(e) for e in fib))
