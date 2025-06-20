@@ -46,10 +46,21 @@
 # print(count)        
 
 # Writing FIBONACCI Series 
-fib = [0,1]
+# fib = [0,1]
 # Range starts from 0 by default 
-n = 5 
-for i in range(n):
-    fib.append(fib[-1] + fib[-2])
+# n = 10 
+# for i in range(n):
+#     fib.append(fib[-1] + fib[-2])
 # Converting the list of integers to string 
-print(','.join(str(e) for e in fib))
+# print(','.join(str(e) for e in fib))
+# print(fib)
+
+# Finding the Maximum Number in a list 
+numberList = [12,3,55,23,6,78,33,4,407]
+max = numberList[0]
+for i in numberList: 
+    if max < i:
+        max = i
+
+print(max)        
+
