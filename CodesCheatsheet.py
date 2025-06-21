@@ -109,8 +109,13 @@
 
 # Checking for PALINDROME using Extended slicing technique. 
 
-str1 = "Kayak".lower()
-if str1 ==str1[::-1]:
-    print("palindrome")
-else: 
-    print("Not Palindrome")       
+# str1 = "Kayak".lower()
+# if str1 == str1[::-1]:
+#     print("palindrome")
+# else: 
+#     print("Not Palindrome")       
+
+
+## Counting the white spaces in a string. 
+string = "p r ogram in g"
+print(string.count(" "))
