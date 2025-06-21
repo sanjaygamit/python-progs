@@ -67,10 +67,29 @@
 # print(max,min)        
 
 
-numberList = [12,3,55,23,6,78,33,4]
-min = numberList[0]
-for i in numberList:
-    # print(i)
-    if min > i:
-        min = i
-print(min)        
+# numberList = [12,3,55,23,6,78,33,4]
+# min = numberList[0]
+# for i in numberList:
+#     # print(i)
+#     if min > i:
+#         min = i
+# print(min)        
+
+# Finding the middle Element in a List 
+numList = [12,3,55,23,6,78,33,4]
+midElement = int((len(numList)/2))
+print(midElement)
+print(f"Middle Element is : {numList[midElement]}")
+
+# Converting a list into a string. 
+list = ["P","Y","T","H","O","N"]
+string = "".join(list)
+print(string)
+
+# Adding Two List Element Together 
+list1 = [1,2,3]
+list2 = [4,5,6]
+res_lst = []
+for i in range(0,len(list1)):
+    res_lst.append(list1[i] + list2[i])
+print(res_lst)   
