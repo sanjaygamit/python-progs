@@ -56,13 +56,15 @@
 # print(fib)
 
 # Finding the Maximum Number in a list 
-numberList = [12,3,55,23,6,78,33,4,407]
-max = numberList[0]
-min = numberList[0]
-for i in numberList: 
-    if max < i:
-        max = i
-    elif min > i:
-        min = i
-print(max,min)        
+# numberList = [12,3,55,23,6,78,33,4,407]
+# max = numberList[0]
+# min = numberList[0]
+# for i in numberList: 
+#     if max < i:
+#         max = i
+#     elif min > i:
+#         min = i
+# print(max,min)        
+
+
 
