@@ -87,10 +87,12 @@
 # print(string)
 
 # Adding Two List Element Together 
-list1 = [1,2,3]
-list2 = [4,5,6]
-res_lst = []
-for i in range(0,len(list1)):
-    print(i)
-    res_lst.append(list1[i] + list2[i])
-print(res_lst)   
+# list1 = [1,2,3]
+# list2 = [4,5,6]
+# res_lst = []
+# for i in range(0,len(list1)):
+#     print(i)
+#     res_lst.append(list1[i] + list2[i])
+# print(res_lst)   
+
+# Comparing Two Strings for ANAGRAMS 
