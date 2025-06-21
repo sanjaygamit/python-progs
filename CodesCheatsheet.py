@@ -96,3 +96,13 @@
 # print(res_lst)   
 
 # Comparing Two Strings for ANAGRAMS 
+
+str1 = "listen"
+str2 = "silenth"
+str1 = str1.lower()
+str2 = str2.lower()
+
+if sorted(str1) == sorted(str2):
+    print("Anagrams")
+else: 
+    print("Not Anagrams")    
