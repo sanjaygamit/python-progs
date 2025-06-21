@@ -67,4 +67,10 @@
 # print(max,min)        
 
 
-
+numberList = [12,3,55,23,6,78,33,4]
+min = numberList[0]
+for i in numberList:
+    # print(i)
+    if min > i:
+        min = i
+print(min)        
