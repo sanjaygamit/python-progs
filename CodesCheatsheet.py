@@ -117,5 +117,16 @@
 
 
 ## Counting the white spaces in a string. 
-string = "p r ogram in g"
-print(string.count(" "))
+# string = "p r ogram in g"
+# print(string.count(" "))
+
+# 16. Counting digits, letters and spaces in a String. 
+import re 
+name = "Python is 1"
+digitcount = re.sub("[^0-9]","",name)
+print(digitcount)
+lettercount = re.sub("[^a-zA-Z]","",name)
+print(lettercount)
+spaceCount = re.findall("[ \s]",name)
+print(spaceCount.count(' '))
+
