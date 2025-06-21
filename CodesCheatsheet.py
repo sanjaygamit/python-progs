@@ -97,12 +97,20 @@
 
 # Comparing Two Strings for ANAGRAMS 
 
-str1 = "listen"
-str2 = "silenth"
-str1 = str1.lower()
-str2 = str2.lower()
+# str1 = "listen"
+# str2 = "silent"
+# str1 = str1.lower()
+# str2 = str2.lower()
 
-if sorted(str1) == sorted(str2):
-    print("Anagrams")
+# if sorted(str1) == sorted(str2):
+#     print("Anagrams")
+# else: 
+#     print("Not Anagrams")    
+
+# Checking for PALINDROME using Extended slicing technique. 
+
+str1 = "Kayak".lower()
+if str1 ==str1[::-1]:
+    print("palindrome")
 else: 
-    print("Not Anagrams")    
+    print("Not Palindrome")       
